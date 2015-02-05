@@ -27,4 +27,4 @@ RUN fetch chromium --nosvn=True
 WORKDIR src
 
 # Build Chromium
-RUN ninja -C out/Release chrome -j18
+# RUN ninja -C out/Release chrome -j18
